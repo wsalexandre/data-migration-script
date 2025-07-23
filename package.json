@@ -1,0 +1,21 @@
+{
+  "name": "data-migration-script",
+  "version": "1.0.0",
+  "description": "CLI script for importing unit and rent roll data into MySQL using TypeORM.",
+  "main": "src/scripts/migrate.ts",
+  "scripts": {
+    "start": "ts-node src/scripts/migrate.ts",
+    "migrate": "ts-node src/scripts/migrate.ts"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "mysql2": "^3.2.0",
+    "typeorm": "^0.3.17"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "@types/node": "^20.2.5"
+  }
+}
