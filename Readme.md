@@ -23,7 +23,9 @@ DB_DATABASE=your_database
 ```
 
 ## Run Migration
+```
 npx ts-node src/scripts/migrate.ts
+```
 
 ## Database Schema
 
