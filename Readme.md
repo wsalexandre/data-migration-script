@@ -14,11 +14,13 @@ npm install
 cp .env.example .env
 
 ## Edit/Create the .env file with your database connection info:
+```
 DB_HOST=localhost
 DB_PORT=3306
 DB_USERNAME=root
 DB_PASSWORD=your_password
 DB_DATABASE=your_database
+```
 
 ## Run Migration
 npx ts-node src/scripts/migrate.ts
